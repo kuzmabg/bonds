@@ -1,0 +1,219 @@
+.slick-slider {
+	display: block; position: relative; box-sizing: border-box; -ms-user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-touch-callout: none; -khtml-user-select: none; -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+	margin: 0px; padding: 0px; overflow: hidden; display: block; position: relative;
+}
+.slick-list:focus {
+	
+}
+.slick-list.dragging {
+	cursor: pointer;
+}
+.slick-slider .slick-track {
+	transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0);
+}
+.slick-slider .slick-list {
+	transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0);
+}
+.slick-track {
+	left: 0px; top: 0px; display: block; position: relative;
+}
+.slick-track::before {
+	display: table; content: "";
+}
+.slick-track::after {
+	display: table; content: "";
+}
+.slick-track::after {
+	clear: both;
+}
+.slick-loading .slick-track {
+	visibility: hidden;
+}
+.slick-slide {
+	height: 100%; float: left; display: none; min-height: 1px;
+}
+[dir='rtl'] .slick-slide {
+	float: right;
+}
+.slick-slide img {
+	display: block;
+}
+.slick-slide.slick-loading img {
+	display: none;
+}
+.slick-slide.dragging img {
+	pointer-events: none;
+}
+.slick-initialized .slick-slide {
+	display: block;
+}
+.slick-loading .slick-slide {
+	visibility: hidden;
+}
+.slick-vertical .slick-slide {
+	border: 1px solid transparent; border-image: none; height: auto; display: block;
+}
+.slick-arrow.slick-hidden {
+	display: none;
+}
+.slick-loading .slick-list {
+	background: url("../images/slick/ajax-loader.gif") no-repeat center rgb(255, 255, 255);
+}
+.slick-prev {
+	background: none; padding: 0px; border: currentColor; border-image: none; top: 0px; width: 50px; height: 124px; color: rgb(27, 209, 114); display: block; position: absolute; cursor: pointer;
+}
+.slick-next {
+	background: none; padding: 0px; border: currentColor; border-image: none; top: 0px; width: 50px; height: 124px; color: rgb(27, 209, 114); display: block; position: absolute; cursor: pointer;
+}
+.slick-prev:hover {
+	background: none; color: rgb(205, 205, 205);
+}
+.slick-next:hover {
+	background: none; color: rgb(205, 205, 205);
+}
+.slick-prev:hover::before {
+	opacity: 1;
+}
+.slick-prev:focus::before {
+	opacity: 1;
+}
+.slick-next:hover::before {
+	opacity: 1;
+}
+.slick-next:focus::before {
+	opacity: 1;
+}
+.slick-prev.slick-disabled::before {
+	opacity: 0.25;
+}
+.slick-next.slick-disabled::before {
+	opacity: 0.25;
+}
+.slick-prev::before {
+	color: white; line-height: 1; font-size: 20px; opacity: 0.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.slick-next::before {
+	color: white; line-height: 1; font-size: 20px; opacity: 0.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {
+	left: -50px;
+}
+[dir='rtl'] .slick-prev {
+	left: auto; right: -50px;
+}
+.slick-prev::before {
+	content: "?";
+}
+[dir='rtl'] .slick-prev::before {
+	content: "?";
+}
+.slick-next {
+	right: -50px;
+}
+[dir='rtl'] .slick-next {
+	left: -50px; right: auto;
+}
+.slick-next::before {
+	content: "?";
+}
+[dir='rtl'] .slick-next::before {
+	content: "?";
+}
+a#reviews-link {
+	background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 16%, rgba(255, 255, 255, 1) 64%, rgba(255, 255, 255, 1) 100%); padding: 18px 0px 0px; left: 0px; top: 90px; width: 100%; height: 34px; text-align: center; color: rgb(27, 209, 114); line-height: 12px; font-size: 12px; vertical-align: bottom; display: block; position: absolute;
+}
+#richSnippetReviews {
+	border-radius: 10px; height: 124px; position: relative; z-index: 3; background-color: rgb(255, 255, 255) !important;
+}
+.prodRevWidgetHead {
+	border-radius: 10px 0px 0px; left: 0px; top: 0px; width: 170px; height: 94px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; position: absolute !important; z-index: 2;
+}
+.prodRevWidgetHead .ratingLogoWrap {
+	padding: 0px !important;
+}
+.prodRevWidgetHead .ratingLogoWrap .ratingSumWrap .starsWrap i {
+	font-size: 18px !important;
+}
+.prodRevWidgetHead .ratingLogoWrap .ratingSumWrap .statsWrap p {
+	font-size: 14px !important;
+}
+.ReviewsLogo--small .ReviewsLogo__star i {
+	line-height: 16px; vertical-align: middle;
+}
+.ReviewsLogo--small .ReviewsLogo__text i {
+	line-height: 16px; vertical-align: middle;
+}
+.ReviewsLogo--small .ReviewsLogo__star i {
+	font-size: 12px !important;
+}
+.ReviewsLogo--small .ReviewsLogo__text i {
+	font-size: 12px !important;
+}
+#reviewsWrap {
+	padding: 0px 50px 0px 220px; border-radius: 10px; width: 100%; height: 124px; overflow: hidden; position: relative; z-index: 1;
+}
+.RUK-SeoSnippetWidget {
+	background-color: rgb(255, 255, 255) !important;
+}
+.RUK-SeoSnippetWidget #reviewsWrap {
+	background-color: rgb(255, 255, 255) !important;
+}
+.reviewWrap {
+	padding: 2px 15px !important; border-radius: 0px !important; width: 100%; margin-bottom: 0px !important; border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important; position: relative;
+}
+.reviewWrap .reviewHeader {
+	margin: 0px !important;
+}
+.reviewWrap .reviewHeader .author {
+	margin: 0px !important; font-size: 14px !important;
+}
+.reviewWrap .reviewHeader .reviewStarsWrap {
+	margin: 0px !important;
+}
+.reviewWrap .reviewHeader .reviewStarsWrap i {
+	font-size: 12px !important;
+}
+.reviewWrap .reviewText p {
+	margin: 0px !important;
+}
+.reviewsContainer {
+	height: 124px;
+}
+.reviewsContainer i {
+	font-size: 30px;
+}
+.Ruk__Prod__footer {
+	padding: 0px !important; border-radius: 0px 0px 0px 10px !important; left: 0px; width: 170px; text-align: center; bottom: 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; position: absolute; z-index: 2; background-color: rgb(255, 255, 255) !important;
+}
+.Ruk__Prod__footer .ReviewsLogo {
+	float: none !important;
+}
+.ReviewsLogo .ReviewsLogo__star {
+	float: none !important;
+}
+.ReviewsLogo .ReviewsLogo__text {
+	float: none !important;
+}
+.reviewWrap .reviewHeader .author {
+	float: none !important;
+}
+.reviewWrap .reviewHeader .reviewStarsWrap {
+	float: none !important;
+}
+@media screen and (max-width:460px)
+{
+#richSnippetReviews {
+	height: 238px;
+}
+.prodRevWidgetHead {
+	border-radius: 10px 10px 0px 0px; width: 100%; height: 84px; border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+#reviewsWrap {
+	padding: 0px 50px; border-radius: 0px 0px 10px 10px; left: 0px; top: 114px; position: absolute;
+}
+.Ruk__Prod__footer {
+	border-radius: 0px !important; left: 0px; top: 84px; width: 100%; height: 30px; border-right-color: currentColor; border-bottom-color: rgb(204, 204, 204); border-right-width: medium; border-bottom-width: 1px; border-right-style: none; border-bottom-style: solid; position: absolute;
+}
+}
